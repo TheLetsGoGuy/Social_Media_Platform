@@ -16,7 +16,7 @@ export default function PostCard({ p }) {
           <img
             src={`${
               import.meta.env.VITE_API_BASE?.replace("/api", "") ||
-              "http://localhost:5000"
+              "https://social-media-platform-tceg.onrender.com"
             }${p.imageUrl}`}
             alt="post"
           />

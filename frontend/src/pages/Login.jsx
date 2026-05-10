@@ -13,7 +13,7 @@ export default function Login({ setUser }) {
     try {
       const res = await fetch(
         `${
-          import.meta.env.VITE_API_BASE || "http://localhost:5000/api"
+          import.meta.env.VITE_API_BASE || "https://social-media-platform-tceg.onrender.com/api"
         }/auth/login`,
         {
           method: "POST",
