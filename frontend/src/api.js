@@ -1,4 +1,4 @@
-const API_BASE = import.meta.env.VITE_API_BASE || `https://social-media-platform-c8i8.vercel.app/api`;
+const API_BASE = import.meta.env.VITE_API_BASE || `https://social-media-platform-tceg.onrender.com/api`;
 
 export async function api(path, options = {}) {
   const token = localStorage.getItem("token");

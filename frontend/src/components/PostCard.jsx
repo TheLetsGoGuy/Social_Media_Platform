@@ -16,7 +16,7 @@ export default function PostCard({ p }) {
           <img
             src={`${
               import.meta.env.VITE_API_BASE?.replace("/api", "") ||
-              "https://social-media-platform-c8i8.vercel.app"
+              "https://social-media-platform-tceg.onrender.com"
             }${p.imageUrl}`}
             alt="post"
           />
